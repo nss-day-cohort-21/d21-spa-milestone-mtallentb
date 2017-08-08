@@ -1,0 +1,11 @@
+.carCard {
+	background: #ccc;
+	border: 1px solid black;
+	margin: 0px;
+	height: 300px;
+}
+
+.fatBorder {
+	border: 5px solid black;
+	background: orange;
+}
