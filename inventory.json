@@ -27,6 +27,20 @@
     	"year": "1999",
     	"price": "1000",
     	"description": "This is a 1999 Acura 3.2 TL in decent shape. Hunter green paint with tan leather interior. Has 200k miles on it."
+    },
+    {
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2017",
+      "price": "45999",
+      "description": "This is a brand spankin' new 2017 Ford F-150. Nothing beats a Ford!"
+    },
+    {
+      "make": "Acura",
+      "model": "Legend",
+      "year": "1991",
+      "price": "1000",
+      "description": "This is the first car I ever owned until I totaled it."
     }
   ]
 }
