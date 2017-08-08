@@ -27,6 +27,7 @@ focusMethod = function getFocus() {
 
     	for (let i = 0; i < cars.length; i++) {
 	    	$('#car-' + [i]).click( () => {
+	    		$('.carCard').removeClass('fatBorder');
 				console.log("Clicked on", $('#car-' + [i]));
 				$('#car-' + [i]).toggleClass('fatBorder');
 				inputField.placeholder = '';
@@ -38,12 +39,9 @@ focusMethod = function getFocus() {
 				if ($('#car-' + [i]).hasClass('fatBorder') === true) {
 					$('#carDescription-' + [i]).html(`<h5>${event.target.value}</h5>`);
 				}
-			});
-			
+			});	
 		}
-
     });
-
 }
 
 CarLot.getJSON(showCars);
